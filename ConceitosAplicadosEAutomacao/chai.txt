@@ -1,0 +1,14 @@
+#chai
+    -é uma biblioteca de "asserts", faz de maneira mais descritiva, ajuda quando usada
+junto com o mocha
+    -Exemplo:
+        ...
+        "expect(value).to.equal(10)" //mais legível
+        ...
+    -O "expect" pode ser usado em objetos, variáveis, functions
+        ...
+        "expect(obj).to.have.property('name')" //verifica se possui a propriedade indicada
+        ...
+        "expect(obj).to.deep.equal(obj2)" //compara se dois objetos tem os mesmo valores
+    -A maior vantagem é poder compara vários tipos de valores, como dito acima, complementa
+    bem o mocha.

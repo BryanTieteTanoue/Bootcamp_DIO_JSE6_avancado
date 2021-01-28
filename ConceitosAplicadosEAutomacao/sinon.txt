@@ -1,0 +1,8 @@
+//Sinon
+    -"moca" funções, serve para sabeer se elas foram invocadas, quantas vezes
+    -Exemplo:
+        ...
+        load: sinon.spy() //verifica se a função foi chamada
+        ...
+        sinon.stub(...).returns('alguma coisa') //substitui um método pelo o indicado
+    -Pode ser aplicado em funções já construídas

@@ -1,0 +1,23 @@
+#mocha
+	-ferramenta para executar os testes
+	-abordagem descritiva, principios BDD
+	-pode usar em browser e node
+	-vc pega arquvios e ele executa os testes nos arquvios selecioandos
+	-pode descrever os testes
+	-Exemplo:
+		/*
+		describe('Math classe', function) {
+			it('soma dois números', function() {
+				const math = new Math();
+				assert.equal(math.sum(5,5), 10)
+				//equal compara se dois valores são iguais. O contrário dispara um erro
+			})
+		}
+		*/
+	-necessário criar/importar/instancar os compoentnes necessários para testar
+	-coisas assincronas (não parama o código) podem passar sen dar erro. Usar "done()"
+	-o valor de "timeout" pode dar erro, por padrão não pode ser maior que 2000ms
+	-mocha recomenda usar functions normais, pois certas funcionalidade dependem do "this"
+	-'.only' é usado para fazer apenas um teste
+	-existem 'hooks', usados para evitar a repetição de código, ativa antes ou depois de cada
+vez que você indicar. Pode executar várias coisas, funções, instanciar classe, mudar uma variável...

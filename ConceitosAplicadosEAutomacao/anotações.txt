@@ -1,0 +1,41 @@
+#Testes autmatizados
+	-Testes unitários: testam a menor parte do seu código, compoentens, sobre uma funções...
+	-Testes integrados: a integração entre os componetes (duas pequnas partes), como uma função interage com as outras
+	-Testes funcionais(end-end): integração de sistemas, testa como usuário
+	-Tem uma pirâmide: unitários (base) -> integrados (meios) -> funcionais e manuais topo
+
+#Testes manuais e automatizados
+	-Testes de Usabilidade
+	-Testes de aceitação do usuário
+	-Protótipos
+	-Exemplos
+	-Alpha e beta
+	-Mais...
+
+#Ferramentas de testes
+	-Testes de carga e performance
+	-Teste de segurança
+	-mais...
+
+#TDD (Test drive development)
+	-É um dos pilares do Extreme Programming. Começa fazendo um teste antes de programar, depois aplica
+o teste, até funcionar. E refatora o código (torná-lo melhor)
+	-Escrita do teste
+	-Escrita do código
+	-Refatorar e repetir tudo
+	-Vantagens:
+		-Feedback rápido
+		-Maior segurnaça em alteraçãoes e novas funcionalidades
+		-código mais limpo
+		-produtividade
+
+#BDD (Behaviour Driven Development)
+	-Desenvolvimento ágil que visa integrar regras de negócio com linguagem de programação
+	-Pilares:
+		-testes
+		-documentação
+		-exemplos
+	-vantagens:
+		-compartilhamento de conhecimentos
+		-documentação dinâmica
+		-visão do todo
