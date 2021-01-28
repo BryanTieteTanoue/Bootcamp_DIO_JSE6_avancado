@@ -1,4 +1,4 @@
-//criando a regra para ser iterável
+//criando a regra para ser iterável, o símbolo é '*'
 const obj = {
     values: [1,2,3,4],
     *[Symbol.iterator]() {
